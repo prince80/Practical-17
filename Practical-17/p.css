@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#clock {
+    margin: 10px;
+    font-size: 9rem;
+}
+
+.greeting {
+    margin: 10px;
+    font-size: 4rem;
+}
+
+.name {
+    color: yellow;
+    margin: 5px;
+    font-size: 3rem;
+}
+
+#date {
+    margin: 10px;
+    font-size: 50px;
+    color: darkorchid;
+    text-shadow: 2px 2px black;
+}

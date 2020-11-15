@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-17</title>
+    <link rel="stylesheet" href="../CSS/practical17.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#clock {
+    margin: 10px;
+    font-size: 9rem;
+}
+
+.greeting {
+    margin: 10px;
+    font-size: 4rem;
+}
+
+.name {
+    color: yellow;
+    margin: 5px;
+    font-size: 3rem;
+}
+
+#date {
+    margin: 10px;
+    font-size: 50px;
+    color: darkorchid;
+    text-shadow: 2px 2px black;
+}
+    </style>
+</head>
+
+<body>
+    <time class='container'>
+        <h1 id="clock">3:46:30 PM</h1>
+        <h2 class="greeting" id="greet">GOOD AFTERNOON</h2>
+        <h2 class="name" id='Name' contenteditable="true"></h2>
+        <h3 id='date'></h3>
+    </time>
+    <script src="p.js"></script>
+</body>
+
+</html>
